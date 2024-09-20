@@ -5,8 +5,8 @@ import java.util.List;
 
 public class LC443StringCompression {
     public static void main(String[] args) {
-        //char[] chars = {'a','a','b','b','c','c','c'};
-        char[] chars = {'a','b','b','b','b','b','b','b','b','b','b','b','b'};
+        char[] chars = {'a','a','b','b','c','c','c'};
+        //char[] chars = {'a','b','b','b','b','b','b','b','b','b','b','b','b'};
         System.out.println(compressInitial(chars));
         System.out.println(compress(chars));
     }
