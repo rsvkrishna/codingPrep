@@ -1,4 +1,4 @@
-package LC15Patterns.TwoPointers;
+package LC15Patterns._02TwoPointers;
 
 public class LC1768MergeStringsAlternatively {
     public static void main(String[] args) {

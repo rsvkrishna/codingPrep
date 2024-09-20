@@ -1,4 +1,4 @@
-package LC15Patterns.PrefixSum;
+package LC15Patterns._01PrefixSum;
 
 import java.util.Arrays;
 

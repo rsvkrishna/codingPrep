@@ -1,7 +1,4 @@
-package LC15Patterns.PrefixSum;
-
-import java.util.HashMap;
-import java.util.Map;
+package LC15Patterns._01PrefixSum;
 
 public class LC724FindPivotIndex {
     public static void main(String[] args) {

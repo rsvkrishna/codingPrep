@@ -1,4 +1,4 @@
-package LC15Patterns.TwoPointers;
+package LC15Patterns._02TwoPointers;
 
 import java.util.ArrayList;
 import java.util.List;
