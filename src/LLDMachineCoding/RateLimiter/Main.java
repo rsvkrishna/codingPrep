@@ -17,6 +17,12 @@ public class Main {
             System.out.println(slidingWindowRateLimiter.allowRequest("client2"));
         }
 
+        // Using RateLimiterManager
+        RateLimiterManager rateLimitManager = RateLimiterManager.getInstance();
+        for (int i = 0; i < 12; i++) {
+            System.out.println(rateLimitManager.allowRequest("client3"));
+        }
+
 
     }
 }

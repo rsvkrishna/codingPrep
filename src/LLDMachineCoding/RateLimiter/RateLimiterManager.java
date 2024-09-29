@@ -6,7 +6,7 @@ public class RateLimiterManager {
 
     private RateLimiterManager() {
         // Example initialization with a fixed window rate limiter
-        this.rateLimiter = RateLimiterFactory.createRateLimiter("fixed", 100, 60000);
+        this.rateLimiter = RateLimiterFactory.createRateLimiter("fixed", 5, 60000);
         System.out.println("in RateLimiterManager");
     }
 
