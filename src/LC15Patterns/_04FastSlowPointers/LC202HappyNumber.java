@@ -17,7 +17,9 @@ public class LC202HappyNumber {
         } while(slow != fast);
         if (slow == 1)
             return true;
-        else return false;}
+        else
+            return false;
+    }
 
     private static int digitSquareSum(int n) {
 
